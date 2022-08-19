@@ -19,7 +19,7 @@ spec:
         hostnames:
         - "mariadb"
       containers:
-      - image: webpooh/lts3:2.2
+      - image: webpooh/lts3:2.3
         name: lts3
         ports:
         - containerPort: 80
